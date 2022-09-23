@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #222;
+    font-weight: 400;
+}
+.wrapper {
+    min-width: 1152px;
+    margin: 0 auto;
+}
+.blind {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    margin: -1px;
+}
+
+
+
+
+.container .inner {
+    width: 1152px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.inner {
+    width: 1152px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+
+
+
+/*title*/
+.container h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+
+/*stripe images*/
+.header-bottom .search-area .btn-submit, .sc-board .btn-more, .sc-new .btn-more, .footer-bottom .cs-area {
+    background: url(../images/icon_set_common.png) no-repeat 0 0;
+}
+.sc-visual .content1 .tab-nav a::before, .sc-visual .content2 .tab-nav a::before {
+    background: url(../images/main.png) no-repeat 0 0;
+}
+.sc-visual .btn-nav.autoplay, .sc-visual .btn-nav.autoplay.active, .sc-visual .btn-controller .btn-nav.prev, .sc-visual .btn-controller .btn-nav.next {
+    background: url(../images/siwper-btn.png) no-repeat 0 0;
+}

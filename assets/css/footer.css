@@ -1,0 +1,125 @@
+.footer .footer-top {
+    height: auto;
+    padding: 0;
+    position: relative;
+}
+.footer .footer-top ul {
+    padding: 15px 0;
+    display: flex;
+}
+.footer .footer-top ul li {
+    padding: 0 10px;
+    position: relative;
+}
+.footer .footer-top ul li.policy {
+    color: #000;
+    font-weight: 700;
+}
+.footer .footer-top ul li::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 1px;
+    height: 14px;
+    margin-top: -6px;
+    background: #dcdcdc;
+}
+.footer .footer-top ul li:first-child {
+    padding-left: 0;
+}
+.footer .footer-top ul li:first-child::before {
+    display: none;
+}
+.footer .footer-top ul a {
+    font-size: 12px;
+    color: #636363;
+}
+.footer .footer-top .sns-area {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -14px;
+    overflow: hidden;
+    font-size: 0;
+    text-align: center;
+}
+.footer .footer-top .sns-area a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/sSnsList2.png) no-repeat  0 0;
+}
+.footer .footer-top .sns-area a + a {
+    margin-left: 12px;
+}
+.footer .footer-top .sns-area a.facebook {
+    background-position: -25px 0;
+}
+.footer .footer-top .sns-area a.twiter {
+    background-position: -50px 0;
+}
+.footer .footer-top .sns-area a.instagram {
+    background-position: -75px 0;
+}
+.footer .footer-top .sns-area a.kakaostory {
+    background-position: -100px 0;
+}
+.footer .footer-top .sns-area a.youtube {
+    background-position: -125px 0;
+}
+.footer .footer-top .sns-area a.nblog {
+    background-position: -150px 0;
+}
+/*addClass active*/
+.footer .footer-top .sns-area a.facebook.active {
+    background-position: -25px -25px;
+}
+.footer .footer-top .sns-area a.twiter.active {
+    background-position: -50px -25px;
+}
+.footer .footer-top .sns-area a.instagram.active {
+    background-position: -75px -25px;
+}
+.footer .footer-top .sns-area a.kakaostory.active {
+    background-position: -100px -25px;
+}
+.footer .footer-top .sns-area a.youtube.active {
+    background-position: -125px -25px;
+}
+.footer .footer-top .sns-area a.nblog.active {
+    background-position: -150px -25px;
+}
+
+
+
+
+
+.footer-bottom {
+    padding: 22px 0;
+    border-top: 1px solid #ccc;
+    position: relative;
+}
+.footer-bottom .cs-area {
+    margin-right: 40px;
+    float: left;
+    width: 108px;
+    height: 45px;
+    background-position: -180px 0;
+}
+.footer-bottom .add-area p {
+    padding-bottom: 4px;
+    font-size: 12px;
+    color: #636363;
+}
+.footer-bottom .add-area p.copy {
+    font-style: 11px;
+}
+.footer-bottom .site-mark {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    padding: 0;
+    background: none;
+}
